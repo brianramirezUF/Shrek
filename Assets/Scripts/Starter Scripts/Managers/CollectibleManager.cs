@@ -19,7 +19,7 @@ public class CollectibleManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        collectibles.text = "Honey :  " + collected;
+        collectibles.text = "Onions :  " + collected;
     }
 
     public void Collected(int value)
