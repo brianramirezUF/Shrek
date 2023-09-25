@@ -598,12 +598,12 @@ SpriteRenderer:
   m_SortingLayerID: 57027851
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1827800112, guid: 356f97ca7889ad945940339b562afe64, type: 3}
+  m_Sprite: {fileID: -936625077, guid: 61f0d6bbf0218e646935b7874b8ef8b3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 19.199999, y: 10.8046875}
+  m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -618,7 +618,7 @@ Transform:
   m_GameObject: {fileID: 684930142}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2251674, y: -0.65152466, z: -0.034342974}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -650,7 +650,7 @@ Transform:
   m_GameObject: {fileID: 1083980656}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.62, y: -5.02, z: 0}
+  m_LocalPosition: {x: 0, y: -5.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -668,6 +668,7 @@ GameObject:
   - component: {fileID: 1650358060}
   - component: {fileID: 1650358059}
   - component: {fileID: 1650358058}
+  - component: {fileID: 1650358062}
   m_Layer: 0
   m_Name: onion
   m_TagString: Untagged
@@ -801,6 +802,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1650358062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650358057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ebe6c80f22dd44180702e0239dbefb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  degreesPerSecond: 0
+  amplitude: 3
+  frequency: 30
 --- !u!1 &1744828101
 GameObject:
   m_ObjectHideFlags: 0
@@ -1213,7 +1229,7 @@ Transform:
   m_GameObject: {fileID: 2079886294}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.69, y: 1.11, z: 0.034342974}
+  m_LocalPosition: {x: -0.12, y: 0.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1279,8 +1295,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.0883708, y: -2.019895}
-  m_Size: {x: 4.853483, y: 7.2165318}
+  m_Offset: {x: 0.105303526, y: -1.4893732}
+  m_Size: {x: 4.6471686, y: 7.2165318}
   m_Direction: 0
 --- !u!114 &2079886299
 MonoBehaviour:
