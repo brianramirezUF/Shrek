@@ -1,0 +1,3 @@
+[NAME=Shrek][SPEAKERSPRITE=Shrek] E
+[NAME=Donkey][SPEAKERSPRITE=Donkey] SHREK!
+[NAME=Shrek][SPEAKERSPRITE=Shrek] e?
