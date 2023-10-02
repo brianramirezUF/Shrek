@@ -7,6 +7,8 @@ TagManager:
   - Collectible
   - Npc
   - Platform
+  - Weapon
+  - Projectile
   layers:
   - Default
   - TransparentFX
