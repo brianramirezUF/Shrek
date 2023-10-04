@@ -41,6 +41,7 @@ public class Weapon : MonoBehaviour
 
     public void WeaponStart()
     {
+        Debug.Log("Attacking!");
         collider.enabled = true;
     }
 
