@@ -63,8 +63,14 @@ public class EnemyChaseBehaviour : StateMachineBehaviour
             cont.SetStateChase();
             Transform enemyPos = animator.transform;
             float step = speed * Time.deltaTime;
-            enemyPos.position = Vector2.MoveTowards(enemyPos.transform.position, playerPos.position, step); // move towards the player
-
+            //float Direction = playerPos.position.x - enemyPos.position.x;
+            /*Vector2 MovePos = new Vector2(
+                enemyPos.position.x + Direction * 0,
+                enemyPos.position.y
+            );*/
+            //enemyPos.position = Vector2.MoveTowards(enemyPos.transform.position, playerPos.position, step); // move towards the player
+            //enemyPos.position = MovePos;
+            enemyPos.transform.position = Vector2.MoveTowards(enemyPos.transform.position, new Vector2(playerPos.transform.position.x, enemyPos.transform.position.y), step);
             if (enemyPos.transform.position.x > playerPos.position.x)
             {
                 enemyPos.localScale = new Vector3(Mathf.Abs(enemyPos.localScale.x) * -1, enemyPos.localScale.y, enemyPos.localScale.z);
