@@ -26168,7 +26168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WalkAudioClip: {fileID: 8300000, guid: 4b4cf75732e93bb4d8769070014b1e67, type: 3}
   LoopWalkAudio: 1
-  AttackAudioClip: {fileID: 0}
+  AttackAudioClip: {fileID: 8300000, guid: 57f06a277dae7c143a716c97ccf01690, type: 3}
   LoopAttackAudio: 0
   DeathAudioClip: {fileID: 8300000, guid: 44fa3787fe2d1144fa8fa8f102b54775, type: 3}
   LoopDeathAudio: 0
