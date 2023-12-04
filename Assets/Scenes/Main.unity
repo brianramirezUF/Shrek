@@ -18908,7 +18908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 420a2ca664ca3f345bc17b6d7d48034a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelIndex: 3
+  levelIndex: 4
   useGameSceneManager: 1
 --- !u!61 &1390671494
 BoxCollider2D:
@@ -26152,7 +26152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponList: []
   weapon: {fileID: 826354182}
-  coolDown: 0.4
+  coolDown: 0.2
   player: {fileID: 2079886294}
 --- !u!114 &2079886301
 MonoBehaviour:
@@ -26170,7 +26170,7 @@ MonoBehaviour:
   LoopWalkAudio: 1
   AttackAudioClip: {fileID: 8300000, guid: 57f06a277dae7c143a716c97ccf01690, type: 3}
   LoopAttackAudio: 0
-  DeathAudioClip: {fileID: 8300000, guid: 44fa3787fe2d1144fa8fa8f102b54775, type: 3}
+  DeathAudioClip: {fileID: 8300000, guid: 544cbe04be43c2a4e8314b39b441aeeb, type: 3}
   LoopDeathAudio: 0
   JumpAudioClip: {fileID: 0}
   LoopJumpAudio: 0
@@ -28964,7 +28964,7 @@ Transform:
   m_GameObject: {fileID: 5917672918923831162}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.57, y: 0, z: 0}
+  m_LocalPosition: {x: 4.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

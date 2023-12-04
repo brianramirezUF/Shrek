@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Clown.unity
     guid: 060d44c684bfade419590b736ecf3a5f
+  - enabled: 1
+    path: Assets/Scenes/Main 1.unity
+    guid: d7163c8a73dd3d04a824dd8143540748
+  - enabled: 1
+    path: Assets/Scenes/Main 2.unity
+    guid: 350ff44ae02c9984c8b3d47ee25eb477
   m_configObjects: {}

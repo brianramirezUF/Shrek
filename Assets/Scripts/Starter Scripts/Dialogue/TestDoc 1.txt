@@ -3,3 +3,4 @@
 [NAME=Shrek][SPEAKERSPRITE=Shrek] e?
 [NAME=Donkey][SPEAKERSPRITE=Donkey] They're trying to capture us and take the swamp!
 [NAME=Shrek][SPEAKERSPRITE=Shrek] e.
+[NAME=Donkey][SPEAKERSPRITE=Donkey] Quick use your onion throw to defeat these hooligans by pressing the left mouse button!
